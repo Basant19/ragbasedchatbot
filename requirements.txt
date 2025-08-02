@@ -1,0 +1,78 @@
+# Core LangChain Packages
+langchain                      # Core LangChain framework
+langchain-core                 # Shared primitives and types
+langchain-community            # Community-contributed tools/loaders
+langchain-experimental         # Experimental features (e.g., agents)
+langchain-google-genai         # Google Gemini integration
+langchain-openai               # OpenAI integration (optional)
+langchain-anthropic            # Anthropic integration (optional)
+langchain-huggingface          # HuggingFace integration (optional)
+langchain-groq                 # Groq integration (optional)
+langchain_tavily               # Tavily integration (optional)
+
+# Google Gemini API
+google-generativeai            # Google Gemini client library
+
+# Environment Management
+python-dotenv                  # For loading environment variables from .env
+
+# Embedding Models
+sentence-transformers          # Useful for alternative embedding models (optional)
+
+# Vector Store Backends
+pgvector                       # PGVector vector store integration
+chromadb                       # Chroma vector store (optional)
+faiss-cpu                      # FAISS vector store (optional)
+wikipedia                      # Wikipedia loader (optional)
+
+# PostgreSQL Driver for PGVector
+psycopg2-binary               # Required PostgreSQL driver for PGVector
+sqlalchemy                     # SQLAlchemy ORM used by LangChain vectorstores
+
+# Web Interface
+streamlit                      # UI for running the chatbot app
+
+# PDF / HTML / URL Document Loaders
+pypdf                          # PDF reading
+beautifulsoup4                 # HTML parsing
+bs4                            # BeautifulSoup alias for convenience
+requests                       # HTTP requests for URL-based loaders
+
+# Web Search Integration
+duckduckgo-search              # DuckDuckGo search API used in tools
+
+# GPU / ML Utilities (optional, for model fine-tuning or torch-based usage)
+torch                          # GPU/CPU tensor support
+numpy                          # Numerical computations
+scikit-learn                   # Machine learning algorithms
+
+# LLM Fine-Tuning + PEFT (Optional)
+datasets                       # Hugging Face datasets
+peft                           # Parameter-efficient fine-tuning
+accelerate                     # Fast training utilities
+bitsandbytes                   # Quantized training
+
+# OpenAI + Groq (optional)
+openai                         # OpenAI client
+groq                           # Groq client
+
+# Miscellaneous Utilities
+pydantic                       # Schema validation for structured outputs
+typing-extensions              # Typing enhancements
+tiktoken                       # Token counting
+ipykernel                      # Jupyter compatibility
+youtube-transcript-api         # YouTube transcript extraction (optional)
+grandalf                       # LangChain visualization tool
+nest_asyncio                   # Allows nested event loops in notebooks
+phidata                        # Optional: helper utilities for LangChain integrations
+ollama                         # Optional: LLM inference via Ollama
+
+
+langchain-postgres
+# Note: remove packages above that are not needed for your specific use-case
+unstructured
+
+
+pdfminer.six
+
+ratelimit
